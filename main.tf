@@ -6,6 +6,10 @@ resource  "clud_build_terraform" "buil-run" {
     
 }
 
+provider "google" {
+  project      = "test-project"
+  region       = "asia-east1"
+}
 
 
   
