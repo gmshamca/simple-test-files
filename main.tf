@@ -6,12 +6,4 @@ resource  "gcp_cloudbuil" "build" {
     
 }
 
-provider "google" {
-  project      = "test-project"
-  region       = "asia-east1"
-  
-  
-}
-
-
 
