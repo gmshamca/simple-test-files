@@ -7,13 +7,6 @@ variable "repo_type" {
 
 variable "git_repo" {
   description = "Git Repository Details"
-  type = map
-  default = {
-      repo1 = {
-        imagename           = "maven-prject"
-        uri            = "https://github.com/gmshamca/helloworld-1"
-        branch         = "main"
-      
-    }
-   } 
-}
+  type = string
+  uri  = "https://github.com/gmshamca/helloworld-1"
+  }
