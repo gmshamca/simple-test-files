@@ -18,4 +18,6 @@ terraform {
       source  = "hashicorp/google"
       version = "3.71.0"
     }
+  }
+}
 
