@@ -6,9 +6,6 @@ resource  "clud_build_terraform" "buil-run" {
     
 }
 
-# provider "google" {
-#   project      = "test-project"
-#   region       = var.region
-# }
+
 
   
