@@ -6,7 +6,7 @@ variable "repo_type" {
 }
 
 variable "git_repo" {
-  description = "Git Repository Details"
   type = string
+  description = "Git Repository Details"
   uri  = "https://github.com/gmshamca/helloworld-1"
   }
