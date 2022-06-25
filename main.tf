@@ -6,9 +6,9 @@ resource  "local_file" "buil-run" {
     
 }
 
-provider "google" {
-  project      = "test-project"
-  region       = var.region
-}
+# provider "google" {
+#   project      = "test-project"
+#   region       = var.region
+# }
 
   
