@@ -6,9 +6,16 @@ resource  "gcp_cloudbuil" "build" {
     
 }
 
-provider "google" {
-  project      = "sapient-poet-351315"
-  region       = "asia-east1"
-}
+# provider "google" {
+#   project      = "sapient-poet-351315"
+#   region       = "asia-east1"
+# }
 
+terraform {
+  required_version = ">= 0.15"
+  required_providers {
+    google = {
+      source  = "hashicorp/google"
+      version = "3.71.0"
+    }
 
