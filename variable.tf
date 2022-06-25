@@ -8,5 +8,5 @@ variable "repo_type" {
 variable "git_repo" {
   type = string
   description = "Git Repository Details"
- default  = "https://github.com/gmshamca/helloworld-1"
+  default  = "https://github.com/gmshamca/helloworld-1"
   }
