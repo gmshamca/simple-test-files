@@ -1,4 +1,7 @@
-
+provider "google" {
+  project      = "test-project"
+  region       = var.region
+}
 variable "repo_type" {
   type        = string
   description = "The name of the repo Type"
