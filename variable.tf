@@ -1,7 +1,4 @@
-provider "google" {
-  project      = "test-project"
-  region       = "asia-east1"
-}
+
 
 variable "repo_type" {
   type        = string
