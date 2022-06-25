@@ -7,9 +7,9 @@ resource  "gcp_cloudbuil" "build" {
 }
 
 provider "google" {
-  project      = "sapient-poet-351315"
+  project      = "test-project"
   region       = "asia-east1"
-  source  = "hashicorp/google"
+  
   
 }
 
