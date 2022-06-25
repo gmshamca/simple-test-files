@@ -11,5 +11,13 @@ provider "google" {
   region       = "asia-east1"
 }
 
-
+terraform {
+  required_version = ">= 0.13"
+  required_providers {
+   gcp = {
+     source  = "hashicorp/gcp"
+     version = "~> 3.0"
+   }
+ }
+}
   
