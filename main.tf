@@ -5,5 +5,20 @@ resource  "gcp_cloudbuil" "build" {
   branch    = "main"
     
 }
+terraform {
+  required_providers {
+    google = {
+      source  = "hashicorp/google"
+      version = "3.52.0"
+    }
+  }
+}
+
+provider "google" {
+  project = "test-project"
+  region  = "asia-east1"
+ 
+}
+
 
 
