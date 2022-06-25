@@ -7,17 +7,8 @@ resource  "clud_build_terraform" "buil-run" {
 }
 
 provider "google" {
-  project      = "test-project"
+  project      = "sapient-poet-351315"
   region       = "asia-east1"
 }
 
-terraform {
-  required_version = ">= 0.13"
-  required_providers {
-   gcp = {
-     source  = "hashicorp/gcp"
-     version = "~> 3.0"
-   }
- }
-}
-  
+
