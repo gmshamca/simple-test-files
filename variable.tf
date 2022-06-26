@@ -6,8 +6,13 @@ variable "repo_type" {
   default = "GITHUB"
 }
 
+variable "main" {
+  type = string
+}
+
+
 variable "git_repo" {
   type = string
   description = "Git Repository Details"
-  url = "https://github.com/gmshamca/helloworld-1"
+  default = "https://github.com/gmshamca/helloworld-1"
   }
