@@ -1,10 +1,9 @@
-resource  "gcp_cloudbuil" "build" {
-  
-  repo_type = var.repo_type
+
+resource "google_cloud_build_service" "webapp" {
+ repo_type = var.repo_type
   git_repo  = var.git_repo
   branch    = "main"
-    
-}
+
 terraform {
   required_providers {
     google = {
