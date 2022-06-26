@@ -6,8 +6,9 @@ variable "repo_type" {
   default = "GITHUB"
 }
 
-variable "main" {
+variable "branch" {
   type = string
+   default = "main"
 }
 
 
